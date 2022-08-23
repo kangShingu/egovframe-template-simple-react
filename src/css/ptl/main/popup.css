@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+/* line 269, scss/new.scss */
+.newWinPop {
+	height: 100%;
+	background: #dfe3e4;
+}
+
+/* line 270, scss/new.scss */
+.newWinPop h1 {
+	color: #000;
+	font-family: 'Noto Sans Light';
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.newWinPop h2 {
+	color: #000;
+	font-family: 'Noto Sans Light';
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+/* line 271, scss/new.scss */
+.newWinPop h1 strong {
+	font-family: "Noto Sans Medium";
+}
+/* line 271, scss/new.scss */
+.newWinPop h2 strong {
+	font-family: "Noto Sans Medium";
+}
+
+/* line 273, scss/new.scss */
+.newWinPop .desc {
+	color: #333;
+	font-size: 14px;
+	font-family: "Noto Sans";
+	line-height: 20px;
+}
+
+/* line 274, scss/new.scss */
+.newWinPop .desc span {
+	background: rgba(19, 255, 42, 0.3);
+}
+
+/* line 276, scss/new.scss */
+.newWinPop > .inner {
+	padding: 40px 20px 0;
+	width: auto;
+}
+
+/* line 277, scss/new.scss */
+.newWinPop .innerBox {
+	position: relative;
+	background: #fff;
+	margin-top: 68px;
+}
+
+/* line 278, scss/new.scss */
+.newWinPop .innerBox .group {
+	margin-bottom: 22px;
+}
+
+/* line 279, scss/new.scss */
+.newWinPop .innerBox .group:last-of-type {
+	margin-bottom: 0;
+}
+
+/* line 281, scss/new.scss */
+.newWinPop .innerBox b {
+	margin-top: 21px;
+	border: 1px solid #aaa8a8;
+	height: 36px;
+	line-height: 36px;
+	display: block;
+	color: #000;
+	font-size: 14px;
+	font-family: 'Noto Sans';
+	text-align: center;
+}
+
+/* line 282, scss/new.scss */
+.newWinPop .innerBox:before, .newWinPop .innerBox:after {
+	position: absolute;
+	content: '';
+	display: block;
+}
+
+/* line 283, scss/new.scss */
+.newWinPop .innerBox:before {
+	left: -15px;
+	top: -20px;
+	width: 77px;
+	height: 62px;
+	background: url("/images/ico-winpop-before.png") no-repeat center;
+}
+
+/* line 284, scss/new.scss */
+.newWinPop .innerBox:after {
+	right: -5px;
+	top: -78px;
+	width: 186px;
+	height: 139px;
+	background: url("/images/ico-winpop-after.png") no-repeat center;
+}
+
+/* line 285, scss/new.scss */
+.newWinPop .innerBox > .inner {
+	width: auto;
+	padding: 33px 29px;
+}
+
+/* line 286, scss/new.scss */
+.newWinPop .innerBox .tit {
+	display: flex;
+	align-items: center;
+	margin-bottom: 3px;
+	color: #e2443b;
+	font-size: 14px;
+	font-family: 'Noto Sans Medium';
+	font-weight: normal;
+}
+
+/* line 287, scss/new.scss */
+.newWinPop .innerBox .tit:after {
+	margin-left: 20px;
+	content: '';
+	flex: 1;
+	height: 1px;
+	border-top: 1px dotted #707070;
+}
+
+/* line 289, scss/new.scss */
+.newWinPop .innerBox .subTxt {
+	position: relative;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #000;
+	font-family: "Noto Sans";
+	line-height: 20px;
+}
+
+/* line 290, scss/new.scss */
+.newWinPop .innerBox .subTxt:after {
+	position: absolute;
+	left: 0;
+	top: 7px;
+	width: 6px;
+	height: 6px;
+	background: #e2443b;
+	border-radius: 50%;
+	display: block;
+	content: '';
+}
+
+/* line 291, scss/new.scss */
+.newWinPop .innerBox .subTxt span {
+	font-size: 12px;
+	color: #272727;
+}
+
+/* line 293, scss/new.scss */
+.newWinPop .innerBox .chkArea {
+	position: absolute;
+	left: -20px;
+	bottom: -27px;
+	width: calc(100% + 40px);
+	background: #e2443b;
+	display: flex;
+}
+
+/* line 294, scss/new.scss */
+.newWinPop .innerBox .chkArea button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+	flex: 1;
+	color: rgba(255, 255, 255, 0.7);
+	transition: .4s;
+}
+
+/* line 295, scss/new.scss */
+.newWinPop .innerBox .chkArea button:hover {
+	color: #fff;
+}
+
+/* line 297, scss/new.scss */
+.newWinPop .innerBox .chkArea button:hover.winPopCloseToday:before {
+	background: #fff url("../images/ico-winpop-chk-hover.png") no-repeat center;
+}
+
+/* line 300, scss/new.scss */
+.newWinPop .innerBox .chkArea button.winPopCloseToday {
+	position: relative;
+}
+
+/* line 301, scss/new.scss */
+.newWinPop .innerBox .chkArea button.winPopCloseToday:before {
+	width: 16px;
+	height: 16px;
+	box-sizing: border-box;
+	content: '';
+	border: 1px solid rgba(255, 255, 255, 0.7);
+	margin-right: 10px;
+	background: url("../images/ico-winpop-chk.png") no-repeat center;
+}
+
+/* line 302, scss/new.scss */
+.newWinPop .innerBox .chkArea button.winPopCloseToday:after {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	content: '';
+	width: 1px;
+	height: 20px;
+	background: rgba(255, 255, 255, 0.7);
+}
